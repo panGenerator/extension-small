@@ -1,0 +1,28 @@
+{
+  "name": "@pangenerator/extension-small",
+  "description": "snall extension for tiptap",
+  "version": "0.0.1",
+  "homepage": "http://",
+  "keywords": [
+    "tiptap",
+    "tiptap extension"
+  ],
+  "license": "MIT",
+  "main": "dist/tiptap-extension-subscript.cjs.js",
+  "umd": "dist/tiptap-extension-subscript.umd.js",
+  "module": "dist/tiptap-extension-subscript.esm.js",
+  "types": "dist/packages/extension-subscript/src/index.d.ts",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "peerDependencies": {
+    "@tiptap/core": "^2.0.0-beta.1"
+  },
+  "devDependencies": {"rollup": "^2.67.0"},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ueberdosis/tiptap",
+    "directory": "packages/extension-subscript"
+  }
+}
