@@ -4,7 +4,8 @@
   "version": "0.0.1",
   "homepage": "https://github.com/panGenerator/extension-small",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "postversion": "git push --tags"
   },
   "keywords": [
     "tiptap",
